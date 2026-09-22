@@ -48,3 +48,15 @@ footer {
     text-align: center;
     margin-right: auto;
 }
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.img-container img {
+    width: 600px;
+    border-radius: 10px;
+}
