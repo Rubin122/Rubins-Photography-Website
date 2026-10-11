@@ -54,6 +54,7 @@ footer {
     grid-template-columns: repeat(3, auto);
     margin-top: 50px;
     gap: 20px;
+    align-items: center;
 }
 
 .img-container img {
