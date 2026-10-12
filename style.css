@@ -92,6 +92,10 @@ footer {
 }
 
 .socials-links a {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
     padding: 15px 25px;
     background-color: rgb(175, 128, 128);
     color: black;
@@ -99,8 +103,14 @@ footer {
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 23px;
-    text-align: center;
 
+}
+
+.socials-links a img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 0;
 }
 
 @media (max-width: 900px) {
